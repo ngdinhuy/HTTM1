@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.httm_btl.fragment.HomeFragment"
+        android:label="HomeFragment"
+        tool:layout="@layout/fragment_home"
+        >
+        <action
+            android:id="@+id/action_homeFragment_to_previewFragment"
+            app:destination="@id/previewFragment"
+            app:popUpTo="@id/homeFragment"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/previewFragment"
+        android:name="com.example.httm_btl.fragment.PreviewFragment"
+        android:label="PreviewFragment"
+        tool:layout="@layout/fragment_preview"
+        >
+        <argument
+            android:name="base64Bitmap"
+            app:argType="string"
+            android:defaultValue="" />
+        <action
+            android:id="@+id/action_previewFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.example.httm_btl.fragment.ResultFragment"
+        android:label="ResultFragment"
+        tool:layout="@layout/fragment_result"
+        />
+</navigation>

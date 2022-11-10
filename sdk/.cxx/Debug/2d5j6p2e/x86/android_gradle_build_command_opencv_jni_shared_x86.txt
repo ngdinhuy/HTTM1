@@ -1,0 +1,7 @@
+Executable : /Users/mac/Library/Android/sdk/cmake/3.18.1/bin/ninja
+arguments : 
+-C
+/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/sdk/.cxx/Debug/2d5j6p2e/x86
+opencv_jni_shared
+jvmArgs : 
+

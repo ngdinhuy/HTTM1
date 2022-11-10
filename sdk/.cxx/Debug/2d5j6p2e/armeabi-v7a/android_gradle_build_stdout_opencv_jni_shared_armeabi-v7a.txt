@@ -1,0 +1,2 @@
+ninja: Entering directory `/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/sdk/.cxx/Debug/2d5j6p2e/armeabi-v7a'
+ninja: no work to do.

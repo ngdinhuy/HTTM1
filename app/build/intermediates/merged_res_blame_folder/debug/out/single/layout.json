@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_preview.xml",
+        "source": "/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/res/layout/fragment_preview.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_result.xml",
+        "source": "/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/res/layout/fragment_result.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_home.xml",
+        "source": "/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_capture_image.xml",
+        "source": "/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/res/layout/fragment_capture_image.xml"
+    }
+]

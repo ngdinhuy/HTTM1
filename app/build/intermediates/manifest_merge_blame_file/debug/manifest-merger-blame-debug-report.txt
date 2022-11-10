@@ -1,0 +1,159 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.httm_btl"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/AndroidManifest.xml:4:5-79
+11-->/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/AndroidManifest.xml:4:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/AndroidManifest.xml:5:5-81
+12-->/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/AndroidManifest.xml:5:22-78
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/AndroidManifest.xml:6:5-67
+13-->/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/AndroidManifest.xml:6:22-64
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/AndroidManifest.xml:7:5-64
+14-->/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/AndroidManifest.xml:7:22-62
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/AndroidManifest.xml:8:5-79
+15-->/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/AndroidManifest.xml:8:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/AndroidManifest.xml:9:5-80
+16-->/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/AndroidManifest.xml:9:22-78
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/AndroidManifest.xml:10:5-66
+17-->/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/AndroidManifest.xml:10:22-63
+18    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+18-->/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/AndroidManifest.xml:11:5-81
+18-->/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/AndroidManifest.xml:11:22-79
+19
+20    <queries>
+20-->[androidx.camera:camera-extensions:1.1.0-beta01] /Users/mac/.gradle/caches/transforms-3/c2e578b2b4c9fe8e96ae2a707d707b20/transformed/camera-extensions-1.1.0-beta01/AndroidManifest.xml:24:5-28:15
+21        <intent>
+21-->[androidx.camera:camera-extensions:1.1.0-beta01] /Users/mac/.gradle/caches/transforms-3/c2e578b2b4c9fe8e96ae2a707d707b20/transformed/camera-extensions-1.1.0-beta01/AndroidManifest.xml:25:9-27:18
+22            <action android:name="androidx.camera.extensions.action.VENDOR_ACTION" />
+22-->[androidx.camera:camera-extensions:1.1.0-beta01] /Users/mac/.gradle/caches/transforms-3/c2e578b2b4c9fe8e96ae2a707d707b20/transformed/camera-extensions-1.1.0-beta01/AndroidManifest.xml:26:13-86
+22-->[androidx.camera:camera-extensions:1.1.0-beta01] /Users/mac/.gradle/caches/transforms-3/c2e578b2b4c9fe8e96ae2a707d707b20/transformed/camera-extensions-1.1.0-beta01/AndroidManifest.xml:26:21-83
+23        </intent>
+24    </queries>
+25
+26    <application
+26-->/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/AndroidManifest.xml:12:5-29:19
+27        android:allowBackup="true"
+27-->/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/AndroidManifest.xml:14:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.8.0] /Users/mac/.gradle/caches/transforms-3/6c5ed906c2ce0300cfc861c5803da747/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/AndroidManifest.xml:15:9-43
+31        android:label="@string/app_name"
+31-->/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/AndroidManifest.xml:16:9-41
+32        android:requestLegacyExternalStorage="true"
+32-->/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/AndroidManifest.xml:13:9-52
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/AndroidManifest.xml:17:9-54
+34        android:supportsRtl="true"
+34-->/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/AndroidManifest.xml:18:9-35
+35        android:testOnly="true"
+36        android:theme="@style/AppTheme" >
+36-->/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/AndroidManifest.xml:19:9-40
+37        <activity
+37-->/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/AndroidManifest.xml:20:9-28:20
+38            android:name="com.example.httm_btl.MainActivity"
+38-->/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/AndroidManifest.xml:21:13-41
+39            android:exported="true" >
+39-->/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/AndroidManifest.xml:22:13-36
+40            <intent-filter>
+40-->/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/AndroidManifest.xml:23:13-27:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/AndroidManifest.xml:24:17-69
+41-->/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/AndroidManifest.xml:24:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/AndroidManifest.xml:26:17-77
+43-->/Users/mac/Documents/DemoAndroidProjects/HTTM_BTL/app/src/main/AndroidManifest.xml:26:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity
+46-->[com.google.android.gms:play-services-base:18.0.1] /Users/mac/.gradle/caches/transforms-3/3a2b2efcdeceef3cfcf5c4b471003983/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+47            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+47-->[com.google.android.gms:play-services-base:18.0.1] /Users/mac/.gradle/caches/transforms-3/3a2b2efcdeceef3cfcf5c4b471003983/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+48            android:exported="false"
+48-->[com.google.android.gms:play-services-base:18.0.1] /Users/mac/.gradle/caches/transforms-3/3a2b2efcdeceef3cfcf5c4b471003983/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+49            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+49-->[com.google.android.gms:play-services-base:18.0.1] /Users/mac/.gradle/caches/transforms-3/3a2b2efcdeceef3cfcf5c4b471003983/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+50
+51        <meta-data
+51-->[com.google.android.gms:play-services-basement:18.0.0] /Users/mac/.gradle/caches/transforms-3/85a435f67fde8d8139bd00eca0b274b5/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+52            android:name="com.google.android.gms.version"
+52-->[com.google.android.gms:play-services-basement:18.0.0] /Users/mac/.gradle/caches/transforms-3/85a435f67fde8d8139bd00eca0b274b5/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+53            android:value="@integer/google_play_services_version" />
+53-->[com.google.android.gms:play-services-basement:18.0.0] /Users/mac/.gradle/caches/transforms-3/85a435f67fde8d8139bd00eca0b274b5/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+54
+55        <uses-library
+55-->[androidx.window:window:1.0.0] /Users/mac/.gradle/caches/transforms-3/9ecdddd1ee50fa274141f1e74bcbb5dd/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+56            android:name="androidx.window.extensions"
+56-->[androidx.window:window:1.0.0] /Users/mac/.gradle/caches/transforms-3/9ecdddd1ee50fa274141f1e74bcbb5dd/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+57            android:required="false" />
+57-->[androidx.window:window:1.0.0] /Users/mac/.gradle/caches/transforms-3/9ecdddd1ee50fa274141f1e74bcbb5dd/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+58        <uses-library
+58-->[androidx.window:window:1.0.0] /Users/mac/.gradle/caches/transforms-3/9ecdddd1ee50fa274141f1e74bcbb5dd/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+59            android:name="androidx.window.sidecar"
+59-->[androidx.window:window:1.0.0] /Users/mac/.gradle/caches/transforms-3/9ecdddd1ee50fa274141f1e74bcbb5dd/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+60            android:required="false" />
+60-->[androidx.window:window:1.0.0] /Users/mac/.gradle/caches/transforms-3/9ecdddd1ee50fa274141f1e74bcbb5dd/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+61        <uses-library
+61-->[androidx.camera:camera-extensions:1.1.0-beta01] /Users/mac/.gradle/caches/transforms-3/c2e578b2b4c9fe8e96ae2a707d707b20/transformed/camera-extensions-1.1.0-beta01/AndroidManifest.xml:31:9-33:40
+62            android:name="androidx.camera.extensions.impl"
+62-->[androidx.camera:camera-extensions:1.1.0-beta01] /Users/mac/.gradle/caches/transforms-3/c2e578b2b4c9fe8e96ae2a707d707b20/transformed/camera-extensions-1.1.0-beta01/AndroidManifest.xml:32:13-59
+63            android:required="false" />
+63-->[androidx.camera:camera-extensions:1.1.0-beta01] /Users/mac/.gradle/caches/transforms-3/c2e578b2b4c9fe8e96ae2a707d707b20/transformed/camera-extensions-1.1.0-beta01/AndroidManifest.xml:33:13-37
+64
+65        <service
+65-->[androidx.camera:camera-camera2:1.1.0-beta01] /Users/mac/.gradle/caches/transforms-3/78dbad6c3650365174c8395faf601ef4/transformed/camera-camera2-1.1.0-beta01/AndroidManifest.xml:26:9-35:19
+66            android:name="androidx.camera.core.impl.MetadataHolderService"
+66-->[androidx.camera:camera-camera2:1.1.0-beta01] /Users/mac/.gradle/caches/transforms-3/78dbad6c3650365174c8395faf601ef4/transformed/camera-camera2-1.1.0-beta01/AndroidManifest.xml:27:13-75
+67            android:enabled="false"
+67-->[androidx.camera:camera-camera2:1.1.0-beta01] /Users/mac/.gradle/caches/transforms-3/78dbad6c3650365174c8395faf601ef4/transformed/camera-camera2-1.1.0-beta01/AndroidManifest.xml:28:13-36
+68            android:exported="false" >
+68-->[androidx.camera:camera-camera2:1.1.0-beta01] /Users/mac/.gradle/caches/transforms-3/78dbad6c3650365174c8395faf601ef4/transformed/camera-camera2-1.1.0-beta01/AndroidManifest.xml:29:13-37
+69            <meta-data
+69-->[androidx.camera:camera-camera2:1.1.0-beta01] /Users/mac/.gradle/caches/transforms-3/78dbad6c3650365174c8395faf601ef4/transformed/camera-camera2-1.1.0-beta01/AndroidManifest.xml:32:13-34:89
+70                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+70-->[androidx.camera:camera-camera2:1.1.0-beta01] /Users/mac/.gradle/caches/transforms-3/78dbad6c3650365174c8395faf601ef4/transformed/camera-camera2-1.1.0-beta01/AndroidManifest.xml:33:17-103
+71                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+71-->[androidx.camera:camera-camera2:1.1.0-beta01] /Users/mac/.gradle/caches/transforms-3/78dbad6c3650365174c8395faf601ef4/transformed/camera-camera2-1.1.0-beta01/AndroidManifest.xml:34:17-86
+72        </service>
+73
+74        <provider
+74-->[androidx.emoji2:emoji2:1.2.0] /Users/mac/.gradle/caches/transforms-3/c275ce6c0fd71d0a4b3451506b324cd7/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+75            android:name="androidx.startup.InitializationProvider"
+75-->[androidx.emoji2:emoji2:1.2.0] /Users/mac/.gradle/caches/transforms-3/c275ce6c0fd71d0a4b3451506b324cd7/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+76            android:authorities="com.example.httm_btl.androidx-startup"
+76-->[androidx.emoji2:emoji2:1.2.0] /Users/mac/.gradle/caches/transforms-3/c275ce6c0fd71d0a4b3451506b324cd7/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+77            android:exported="false" >
+77-->[androidx.emoji2:emoji2:1.2.0] /Users/mac/.gradle/caches/transforms-3/c275ce6c0fd71d0a4b3451506b324cd7/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+78            <meta-data
+78-->[androidx.emoji2:emoji2:1.2.0] /Users/mac/.gradle/caches/transforms-3/c275ce6c0fd71d0a4b3451506b324cd7/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+79                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+79-->[androidx.emoji2:emoji2:1.2.0] /Users/mac/.gradle/caches/transforms-3/c275ce6c0fd71d0a4b3451506b324cd7/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+80                android:value="androidx.startup" />
+80-->[androidx.emoji2:emoji2:1.2.0] /Users/mac/.gradle/caches/transforms-3/c275ce6c0fd71d0a4b3451506b324cd7/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+81            <meta-data
+81-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/mac/.gradle/caches/transforms-3/a3769b5e5161406319099377738fc447/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+82                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+82-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/mac/.gradle/caches/transforms-3/a3769b5e5161406319099377738fc447/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+83                android:value="androidx.startup" />
+83-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/mac/.gradle/caches/transforms-3/a3769b5e5161406319099377738fc447/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+84        </provider>
+85    </application>
+86
+87</manifest>
